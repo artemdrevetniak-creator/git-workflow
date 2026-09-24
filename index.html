@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<header class="header">
-			<div class="container header__container">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
 				<span class="header__title">Title</span>
 				<nav class="header__nav">
 					<ul class="header__links">
@@ -19,12 +21,26 @@
 					</ul>
 				</nav>
 			</div>
-		</header>
-		<main>
-			<section class="hero"></section>
-			<section class="about"></section>
-			<section class="contacts"></section>
-		</main>
-		<footer></footer>
-	</body>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="hero__overview">
+				<p class="hero__subtitle">Sweet moments, made with love.</p>
+				<h1 class="hero__title title-text"> Taste the joy of our delicious <span>ice-cream</span> </h1>
+				<p class="hero__description main-text"> Enjoy creamy, delicious ice cream made with fresh ingredients.
+					Choose your favorite flavor and make every moment a little sweeter.
+        </p>
+        <button class="hero__btn primary-btn" type="button">Buy Now</button>
+        
+			</div>
+      <div class="hero__image-wrapper">
+				 <img class="hero__image" src="/images/hero.jpg" alt="Delicious ice cream" />
+		  </div>			
+		</section>
+		<section class="about"></section>
+		<section class="contacts"></section>
+	</main>
+	<footer></footer>
+</body>
+
 </html>

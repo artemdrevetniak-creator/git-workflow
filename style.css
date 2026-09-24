@@ -1,0 +1,34 @@
+.hero {
+    padding: 50px 20px;
+}
+
+.hero__overview {
+    max-width: 500px;
+}
+
+.hero__subtitle {
+    color: #d23166;
+}
+
+.hero__title {
+    font-size: 40px;
+}
+
+.hero__title span {
+    color: #d23166;
+}
+
+.hero__description {
+    color: #555;
+}
+
+.hero__btn {
+    padding: 10px 20px;
+    background: #d23166;
+    color: white;
+    border: 0;
+}
+.hero__image {
+    padding: 20px 20px;
+    width: 1000px;
+}
